@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SantoshDemoApp</string>
+    <string name="recall_api">Retry</string>
+    <string name="error_msg">Sorry Something went wrong</string>
+    <string name="submit">Submit</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_data_found">Product Not Found</string>
+    <string name="scan_product">Scan Product</string>
+    <string name="pay">Pay</string>
+    <string name="thank_you">Thank You</string>
+    <string name="sucess_msg">Congratulations! You have sucessfully completed your purchase.</string>
+    <string name="return_to_home_page">Return to Home Page</string>
+    <string name="todo">TODO</string>
+    <string name="add_to_cart">Add To Cart</string>
+</resources>

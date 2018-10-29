@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main_activity.UserInputActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:title="Demo App"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:text="@string/scan_product"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:onClick="onClickProduct"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>
